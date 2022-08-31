@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Wheather app</title>
+</head>
+<body>
+    <div class="container my-5">
+        <h1 class="text-center m-3">Wheather App</h1>
+        <div class="card shadow-lg rounded m-auto">
+            <div class="card-body text-center">
+                <img src="./assets/weather.jpg" id="imageTime">
+                <form action="">
+                    <div class="form-group">
+                        <input type="text" name="searchCity" id="searchCity" 
+                        placeholder="Enter your location" autocomplete="off"
+                         class="form-control">
+                    </div>
+                </form>
+                <div class="card card-body m-2 d-none list-card">
+                    <div class="list"></div>
+                </div>
+                <h1 class="text-center" id="cityName">Hargeisa</h1>
+                <h4 class="text-center" id="weatherText">Weather Text</h4>
+                <h4 class="text-center mb-5" id="degree">35 &deg; C</h4>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+    <script src="/main.js"></script>
+</body>
+</html>
